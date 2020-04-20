@@ -1,0 +1,148 @@
+body {
+	background-color: darkslateblue;
+}
+
+input[type="text"], input[type="password"], input[type="search"] {
+	color: #5d5d5d;
+	width: 75%;
+	padding: 8px;
+	font: normal 100% 'century gothic', arial;
+}
+select[name="country"] {
+	color: #5d5d5d;
+	width: 81%;
+	padding: 8px;
+	margin-top: 5%;
+}
+
+input, textarea {
+	margin-top: 5%;
+	outline: none;
+	border: none;
+	border: solid 1px #f2f2f2;
+}
+
+h2 {
+	font: normal 150% 'century gothic', arial;
+	text-align: center;
+	margin: 0 0 2px 0;
+	padding: 0 0 5px 0;
+	color: #000;
+}
+
+p, label {
+	margin: 2% 0 0 0;
+	font: normal 100% 'century gothic', arial;
+}
+
+.wrapper {
+	width:260px;
+	padding: 5%;
+	padding-top: 3%;
+	margin: auto;
+	margin-top: 3%;
+	border: solid 1px #f2f2f2;
+	border-radius: 5%;
+	background-color: #f9f9f9;
+}
+
+input.btn {
+	background-color: darkslateblue;
+	border-radius: 5px;
+}
+.btn {
+	color: #fff;
+	float: right;
+	margin-top: 10px;
+	margin-right: 48px;
+	padding: 8px;
+	cursor: pointer;
+}
+
+.radio label {
+	position: relative;
+	padding-left: 50px;
+	cursor: pointer;
+	width: 50%;
+	float: left;
+	line-height: 40px;
+}
+.radio input {
+	position: absolute;  
+	opacity: 0;
+}
+
+#attention {
+	margin-top: 3%;
+	padding-bottom: 3%;
+}
+
+#attention p {
+	font: normal 80% 'century gothic', arial;
+	text-align: center;
+	color:#fff;
+	width: 50%;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+	body {
+		background-color: #257965;
+	}
+	.wrapper {
+		width: 40vh;
+		height: 75vh;
+		padding: 5%;
+		padding-top: 3%;
+		margin: auto;
+		margin-top: 3%;
+		border: solid 1px #f2f2f2;
+		background-color: #f9f9f9;
+		border-radius: 0;
+	}
+	h2 {
+		font: normal 130% 'century gothic', arial;
+		text-align: center;
+		margin: 0 0 2px 0;
+		padding: 0 0 5px 0;
+		color: #000;
+	}
+	#attention p {
+		font: normal 80% 'century gothic', arial;
+		text-align: center;
+		color:#fff;
+		width: 75%;
+		margin-top: 0;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0;
+	}
+
+	input[type="text"], input[type="password"], input[type="search"] {
+		color: #5d5d5d;
+		width: 90%;
+		padding: 8px;
+		font: normal 100% 'century gothic', arial;
+	}
+	input.btn {
+		background-color: #257965;
+
+	}
+	.btn {
+		background-color: #fff;
+		width: 130px;
+		height: 40px;
+		margin-top: 20px;
+		float: right;
+		margin-right: 0;
+	}
+	select[name="country"] {
+		color: #5d5d5d;
+		width: 97%;
+		padding: 8px;
+		margin-top: 5%;
+	}
+}

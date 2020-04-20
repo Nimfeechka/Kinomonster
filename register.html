@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="robots" content="none" />
+	<meta name="robots" content="noarchive" />
+	<link rel="stylesheet" href="assets/css/register.css">
+	<title>Регистрация</title>
+</head>
+<body>
+	<div class="wrapper">
+		<h2>Зарегистрироваться на портале</h2>
+		<form method="post" action="#" id="login">
+			<p>Ваш пол</p>
+			<label>
+				<input type="radio" name="sex" value="мужской">Мужской
+				<div class="radio-control male"></div>
+			</label>
+			<label>
+				<input type="radio" name="sex" value="женский">Женский
+				<div class="radio-control female"></div>
+			</label>
+			<input type="text" name="name" placeholder="Ваше имя" />
+			<input type="text" name="login_field" placeholder="Ваш E-mail" />
+			<input type="password" name="password_field" placeholder="Пароль" />
+			<input type="password" name="password_field" placeholder="Повторите пароль" />
+			<select name="country">
+				<option>Ваша страна</option>
+				<option value="Россия">Россия</option>
+				<option value="Украина">Украина</option>
+				<option value="Беларусь">Беларусь</option>
+				<option value="Кахахстан">Казахстан</option>
+				<option value="Молдова">Молдова</option>
+				<option value="Армения">Армения</option>
+				<option value="Азербайджан">Азербайджан</option>
+				<option value="Грузия">Грузия</option>
+			</select>
+		</form>
+		<form action="#">
+			<input type="submit" class="btn" value="Отправить">
+		</form>
+
+		
+	</div>
+	<div id="attention">
+		<p>Уважаемый гость!</p>
+		<p>Для успешного прохождения регистрации на портале "КиноМонстр"
+		Вам нужно указать действующий адрес e-mail 
+		т.к. на него будет выслано письмо со ссылкой для активации учётной записи!</p>
+	</div>
+</body>
+</html>
